@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">指定日のツイートを表示するプラグイン for twicca</string>
+    <string name="submit">OK</string>
+    <string name="info_could_find_official_app">%1$d日以上前に投稿されたツイートでした。Twitter公式アプリで検索してみます。</string>
+    <string name="info_could_not_find_official_app">%1$d日以上前に投稿されたツイートのため、Twitter公式アプリで検索しようとしましたが、アプリがインストールされていませんでした。</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cubic9.android.twiccaplugins.showtweetsofspecifieddate"
+    android:versionCode="2"
+    android:versionName="0.2">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jp.r246.twicca.ACTION_SHOW_TWEET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
